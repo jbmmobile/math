@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Worksheets Hub</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background: white;
+        border-radius: 18px;
+        box-shadow: 0 4px 24px rgba(60,60,120,0.08);
+        padding: 2.5rem 2rem 2rem 2rem;
+        max-width: 420px;
+        text-align: center;
+      }
+      h1 {
+        color: #3b3b6d;
+        margin-bottom: 0.5em;
+        font-size: 2.2em;
+      }
+      .worksheet-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2em;
+        margin: 2em 0 1em 0;
+      }
+      .worksheet-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.7em;
+        background: #eef2ff;
+        border-radius: 8px;
+        padding: 1em 0.5em;
+        font-size: 1.15em;
+        color: #3b3b6d;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.2s, color 0.2s;
+      }
+      .worksheet-link:hover {
+        background: #6366f1;
+        color: white;
+      }
+      .icon {
+        font-size: 1.3em;
+      }
+      .coming-soon {
+        font-size: 0.95em;
+        color: #a0aec0;
+        margin-left: 0.5em;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Math Worksheets Hub</h1>
+      <div class="worksheet-links">
+        <a class="worksheet-link" href="/math/multiplication/">
+          <span class="icon">✖️</span> Multiplication Worksheets
+        </a>
+        <div class="worksheet-link" style="opacity:0.6; cursor: not-allowed;">
+          <span class="icon">➕</span> Addition Worksheets <span class="coming-soon">(coming soon)</span>
+        </div>
+        <div class="worksheet-link" style="opacity:0.6; cursor: not-allowed;">
+          <span class="icon">➖</span> Subtraction Worksheets <span class="coming-soon">(coming soon)</span>
+        </div>
+        <div class="worksheet-link" style="opacity:0.6; cursor: not-allowed;">
+          <span class="icon">➗</span> Division Worksheets <span class="coming-soon">(coming soon)</span>
+        </div>
+      </div>
+      <p style="color:#6b7280; font-size:0.98em; margin-top:2em;">More worksheet types coming soon!</p>
+    </div>
+  </body>
+</html> 
