@@ -42,18 +42,29 @@ Error generating stack: `+o.message+`
           .responsive-controls {
             flex-direction: column !important;
             align-items: stretch !important;
-            gap: 0.5em !important;
+            gap: 0.2em !important;
+            margin-bottom: 8px !important;
           }
           .responsive-controls > div {
             width: 100% !important;
             justify-content: center !important;
             align-items: flex-start !important;
+            margin-bottom: 0 !important;
           }
           h1 {
             font-size: 1.3em !important;
+            margin-top: 0.7em !important;
+            margin-bottom: 0.3em !important;
+          }
+          a {
+            top: 12px !important;
+            left: 12px !important;
+            padding: 0.3em 1em !important;
           }
           .worksheet-set {
             font-size: 0.95em !important;
+            margin-top: 0 !important;
+            margin-bottom: 8px !important;
           }
           button {
             font-size: 1em !important;
@@ -66,6 +77,13 @@ Error generating stack: `+o.message+`
             box-shadow: none !important;
             display: inline-block !important;
             vertical-align: middle !important;
+            margin-bottom: 0 !important;
+          }
+          #printable-area {
+            margin-top: 8px !important;
+          }
+          .note, .note * {
+            margin-bottom: 8px !important;
           }
         }
         @media print {
