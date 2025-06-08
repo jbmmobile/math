@@ -45,20 +45,18 @@ Error generating stack: `+o.message+`
           button, select, label, h1, .note { display: none !important; }
           .worksheet-page {
             box-sizing: border-box;
-            padding: 0.2in 0.3in;
+            padding: 0.1in 0.2in;
             margin: 0 !important;
             page-break-inside: avoid;
-            min-height: 5in;
-            max-height: 5.5in;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: flex-start;
             background: #fff !important;
           }
           .worksheet-set {
             page-break-inside: avoid;
-            margin: 0 0 8px 0 !important;
-            padding: 4px 0 4px 0 !important;
+            margin: 0 0 4px 0 !important;
+            padding: 2px 0 2px 0 !important;
             border: 2px solid #222 !important;
             border-radius: 6px !important;
             background: #fff !important;
@@ -72,8 +70,8 @@ Error generating stack: `+o.message+`
             page-break-after: always;
           }
           h3 {
-            margin: 0 0 4px 0 !important;
-            font-size: 1em !important;
+            margin: 0 0 2px 0 !important;
+            font-size: 0.95em !important;
             color: #222 !important;
             font-weight: 600 !important;
             letter-spacing: 1px !important;
@@ -82,10 +80,12 @@ Error generating stack: `+o.message+`
             color: #222 !important;
             background: #fff !important;
             border: 1px solid #bbb !important;
+            padding: 3px !important;
+            font-size: 15px !important;
           }
         }
         @page {
           size: auto;
-          margin: 0.5in 0.7in;
+          margin: 0.4in 0.5in;
         }
       `})]})}const Ud=ic(document.getElementById("root"));Ud.render(H.jsx(Fd,{}));
