@@ -54,6 +54,13 @@ Error generating stack: `+o.message+`
           .worksheet-set {
             font-size: 0.95em !important;
           }
+          button {
+            font-size: 0.98em !important;
+            padding: 0.4em 0.7em !important;
+            min-height: unset !important;
+            height: auto !important;
+            border-radius: 6px !important;
+          }
         }
         @media print {
           body * { visibility: hidden; }
