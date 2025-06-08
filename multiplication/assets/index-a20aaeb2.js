@@ -55,11 +55,13 @@ Error generating stack: `+o.message+`
             font-size: 0.95em !important;
           }
           button {
-            font-size: 0.98em !important;
-            padding: 0.4em 0.7em !important;
-            min-height: unset !important;
+            font-size: 1em !important;
+            padding: 0.25em 0.7em !important;
+            min-height: 0 !important;
             height: auto !important;
+            line-height: 1.2 !important;
             border-radius: 6px !important;
+            box-shadow: none !important;
           }
         }
         @media print {
